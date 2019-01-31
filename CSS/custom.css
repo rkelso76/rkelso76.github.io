@@ -15,3 +15,11 @@ body {
 .jumbotron h1 {
 	color: red;
 }
+
+.jumbotron label {
+	color: white
+}
+
+jumbotron hr {
+	color: white
+}

@@ -19,19 +19,30 @@
 	<div class="container">
 	
 		<div class="jumbotron text-center mt-3">
-		  <h1 class="display-4 mb-2 mt-3">Welcome to Red Rooster Wine</h1>
+		  <h1 class="display-4 mb-2 mt-3">Thanks for Subscribing to Red Rooster Wine</h1>
 		  <p>Red Rooster Wine is a Winery in Planning in Brown County Indiana, specializing in hand crafted small batch honey wines.</p>
 		  <hr class="my-4">
-		  <p>Subscribe to our email list to be notified when our website goes live.</p>
+		  <p>You will be notified by email when our website goes live.</p>
 			
-			<form accept-charset="UTF-8" action="https://usebasin.com/f/e16aaf7c0af2" enctype="multipart/form-data" method="POST">
+			<!--- form accept-charset="UTF-8" action="https://usebasin.com/f/e16aaf7c0af2" enctype="multipart/form-data" method="POST" --->
 			  
 			  <!---label for="email-address">Enter Email Address</label --->
 			  
-			  <input type="email" id="email" name="email" placeholder="Enter Email Here" required>
+			  <!--- input type="email" id="email" name="email" placeholder="Enter Email Here" required>
 
 			  <button class="btn btn-primary" type="submit">Subscribe</button>
-			</form>
+			</form --->
+			
+		<!--- Delay java script --->
+		<script type="text/javascript">   
+			function Redirect() 
+			{  
+				window.location="http://bit.ly/RedRoosterWine"; 
+			} 
+			document.write("You will be redirected to the Home page in 5 seconds"); 
+			setTimeout('Redirect()', 5000);   
+		</script>
+		
 		</div>
 	</div>
 	
